@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="20sp"
+        app:cardBackgroundColor="@color/md_yellow_700"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/md_white_1000"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="Add new Sample"/>
+
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_save"/>
+
+            <EditText
+                android:id="@+id/etBoxTittleBoard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Tittle"
+                android:textColorHint="@color/md_white_1000"
+                android:textSize="18sp"
+                android:textColor="@color/md_white_1000"
+                android:inputType="textCapWords"
+                android:layout_margin="10sp"
+                android:fontFamily="casual"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <ImageButton
+                    android:id="@+id/btnBoxCalcel"
+                    android:layout_width="0sp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/md_red_300"
+                    android:textColor="@color/md_white_1000"
+                    android:src="@drawable/ic_close"
+                    android:text="Calcel"
+                    />
+
+                <ImageButton
+                    android:id="@+id/btnBoxAcept"
+                    android:layout_width="0sp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_white_1000"
+                    android:backgroundTint="@color/md_green_A700"
+                    android:src="@drawable/ic_check"
+                    android:text="Acept"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

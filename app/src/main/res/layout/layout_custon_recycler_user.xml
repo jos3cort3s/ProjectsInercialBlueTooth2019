@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15sp">
+
+
+    <TextView
+        android:id="@+id/tv_id_adapter"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight ="1"
+        android:text="1"
+        android:gravity="center"
+        android:textSize="24dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:layout_weight ="5"
+        android:orientation="vertical"
+       >
+
+
+        <TextView
+            android:id="@+id/tv_tittle_adapter"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight ="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_date_adapter"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight ="1"
+            android:gravity="center"
+            android:text="TextView"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight ="4"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btn_graphics_adapter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_graphis"
+
+         />
+
+        <ImageButton
+            android:id="@+id/btn_export_adapter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_export"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

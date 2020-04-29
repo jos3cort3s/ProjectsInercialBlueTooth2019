@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp"
+        app:cardBackgroundColor="@color/md_green_400"
+        app:cardCornerRadius="20sp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:gravity="center_horizontal"
+                android:text="Show data wearable"
+                android:textColor="@color/md_white_1000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/graph_boxData"
+                android:layout_width="match_parent"
+                android:layout_height="200dip" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200sp">
+
+                <TextView
+                    android:id="@+id/tv_BoxData"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="20sp"
+                    android:fontFamily="casual"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="18sp" />
+
+            </ScrollView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/ibtn_BoxCancel"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/md_red_300"
+                    android:src="@drawable/ic_close"
+                    android:text="Calcel"
+                    android:textColor="@color/md_white_1000" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

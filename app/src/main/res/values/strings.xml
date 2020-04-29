@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AppBluetoothMe</string>
+    <string name="action_settings">Settings</string>
+    <string name="tittle_first_activity">Scan Device</string>
+    <string name="tittle_second_activity">Connect Device</string>
+    <string name="text_view_data_device">Device Data</string>
+
+
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_chara">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="title_activity_sensor_movil">sensorMovilLayout</string>
+
+
+</resources>
